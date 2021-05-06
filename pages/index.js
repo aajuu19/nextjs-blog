@@ -40,7 +40,6 @@ export default function Home({allPostsData}) {
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
               </small>
-              {date}
             </li>
           ))}
         </ul>
